@@ -10,7 +10,7 @@
 
 .post h2 {
     margin-block-end: 2.07em;
-    color: var(--primary-1);
+    color: var(--primary-2);
     font-size: 1.75em;
     text-transform: uppercase;
     text-wrap: balance;
@@ -23,10 +23,10 @@
 
 .post button {
     padding: 0.75em 1.625em;
-    border: 2px solid var(--primary--1);
+    border: 2px solid var(--primary--2);
     border-radius: 2em;
-    background-color: var(--primary--2);
-    color: var(--primary--1);
+    background-color: var(--primary--3);
+    color: var(--primary--2);
 }
 
 .post button:hover {
