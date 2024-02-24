@@ -1,6 +1,6 @@
 .logo {
     color: var(--header-background);
-    font-family: eurofurence;
+    font-family: eurofurence, sans-serif;
     font-size: 2.5em;
 }
 
