@@ -14,6 +14,14 @@
     grid-column: -1 / 1;
 }
 
+.main-layout > *.full-border {
+    border: 4px solid var(--primary--3);
+}
+
+.main-layout > *.side-border {
+    border-inline: 4px solid var(--primary--3);
+}
+
 .posts-layout {
     display: flex;
     flex-direction: column;
