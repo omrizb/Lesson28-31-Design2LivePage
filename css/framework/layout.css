@@ -18,3 +18,9 @@
     display: flex;
     flex-direction: column;
 }
+
+.pagination-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

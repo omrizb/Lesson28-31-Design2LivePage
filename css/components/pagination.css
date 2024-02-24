@@ -1,0 +1,6 @@
+.pagination {
+    padding: 1.67em;
+    color: var(--primary--1);
+    font-size: 1.125em;
+    cursor: pointer;
+}
