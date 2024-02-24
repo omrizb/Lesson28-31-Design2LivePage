@@ -1,4 +1,14 @@
 @font-face {
-    font-family: aaa;
-    src: url();
+    font-family: eurofurence;
+    src: url(/assets/fonts/eurofurence-regular.ttf);
+}
+
+@font-face {
+    font-family: lato-regular;
+    src: url(/assets/fonts/lato-regular.ttf);
+}
+
+@font-face {
+    font-family: lato-bold;
+    src: url(/assets/fonts/lato-bold.ttf);
 }
