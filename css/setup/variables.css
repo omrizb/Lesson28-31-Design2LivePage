@@ -1,3 +1,11 @@
 :root {
-    
+    /* Sizes */
+    --header-height: 130px;
+    --header-nav-list-margin: 2.375em;
+
+    /* Colors */
+    --header-background: rgba(41, 41, 41, 1);
+    --header-base: #FFFFFF;
+    --header-marker: #58C93A;
+    --primary-base: #606060;
 }
