@@ -1,0 +1,43 @@
+.post {
+    display: flex;
+    gap: 40px;
+    margin-block-start: 80px;
+}
+
+.post img {
+    max-width: 470px;
+}
+
+.post h2 {
+    margin-block-end: 2.07em;
+    color: var(--primary-1);
+    font-size: 1.75em;
+    text-transform: uppercase;
+    text-wrap: balance;
+}
+
+.post p {
+    margin-block-end: 2.75em;
+    inline-size: none;
+}
+
+.post button {
+    padding: 0.75em 1.625em;
+    border: 2px solid var(--primary--1);
+    border-radius: 2em;
+    background-color: var(--primary--2);
+    color: var(--primary--1);
+}
+
+.post button:hover {
+    border-color: var(--primary-marker);
+    color: var(--primary-marker);
+}
+
+.post button::after {
+    content: '';
+}
+
+.post button:hover::after {
+    content: ' →';
+}

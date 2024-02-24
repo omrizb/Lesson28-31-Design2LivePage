@@ -10,7 +10,7 @@
 }
 
 .main-header .main-nav-list > *:hover {
-    color: var(--header-marker);
+    color: var(--primary-marker);
 }
 
 .main-header .main-nav-list > *::before {
@@ -20,7 +20,7 @@
     left: calc(-1 * var(--header-nav-list-margin));
     width: calc(100% + 2 * var(--header-nav-list-margin));
     height: 5px;
-    background-color: var(--header-marker);
+    background-color: var(--primary-marker);
     opacity: 0;
 }
 
@@ -34,5 +34,5 @@
 }
 
 .marked {
-    color: var(--header-marker);
+    color: var(--primary-marker);
 }

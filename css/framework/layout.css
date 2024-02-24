@@ -13,3 +13,8 @@
 .main-layout > *.full {
     grid-column: -1 / 1;
 }
+
+.posts-layout {
+    display: flex;
+    flex-direction: column;
+}
