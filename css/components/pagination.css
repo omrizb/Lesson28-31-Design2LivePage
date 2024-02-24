@@ -1,6 +1,8 @@
 .pagination {
     padding: 1.67em;
     color: var(--primary--1);
+    font-family: lato-bold, sans-serif;
     font-size: 1.125em;
+    text-transform: uppercase;
     cursor: pointer;
 }
