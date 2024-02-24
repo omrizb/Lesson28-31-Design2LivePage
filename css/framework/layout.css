@@ -25,6 +25,15 @@
 .posts-layout {
     display: flex;
     flex-direction: column;
+    gap: 80px;
+}
+
+.posts-layout > .post:first-child {
+    margin-block-start: 80px;
+}
+
+.posts-layout > .post:last-child {
+    margin-block-end: 80px;
 }
 
 .pagination-layout {
